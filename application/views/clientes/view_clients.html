@@ -1,0 +1,18 @@
+$def with(datos)
+<br>
+<h1 class="text-center"><img src="/static/images/job.png" height="50" width="50">  Detalle Cliente</h>
+<br>
+<br>
+<section class="container">
+    <h3 class="text-left"><img src="/static/images/id-card.png" height="30" width="30">  RFC:</h3><input type="text" class="form-control" readonly="true" value="$datos.rfc" id="rfc" name="rfc">
+    <br>
+    <h3 class="text-left"><img src="/static/images/user-silhouette.png" height="30" width="30">  Nombre:</h3><input type="text" class="form-control" readonly="true" value="$datos.nombre" id="nombre" name="nombre">
+    <br>
+    <h3 class="text-left"><img src="/static/images/phone-receiver.png" height="30" width="30">  Teléfono:</h3><input type="text" class="form-control"  readonly="true" value="$datos.telefono" id="telefono" name="telefono">
+    <br>
+    <h3 class="text-left"><img src="/static/images/opened-email-envelope.png" height="30" width="30">  Correo:</h3><input type="text" class="form-control"  readonly="true" value="$datos.correo" id="correo" name="correo">
+    <br>
+    <h3 class="text-left"><img src="/static/images/address.png" height="30" width="30">  Dirección:</h3><input type="text" class="form-control"  readonly="true" value="$datos.direccion" id="direccion" name="direccion">
+    <br>
+    <a href="/index_clients"><button type="submit" class="btn btn-warning  btn-lg btn-block">Regresar</button></a>
+</section>

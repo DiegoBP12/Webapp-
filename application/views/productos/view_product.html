@@ -1,0 +1,18 @@
+$def with(datos)
+<br>
+<h1 class="text-center"><img src="/static/images/description.png" height="50" width="50">  Detalle Producto</h>
+<br>
+<br>
+<section class="container">
+    <h3 class="text-left"><img src="/static/images/barcode_2.png" height="30" width="30">  Código de Barras:</h3><input type="text" class="form-control" readonly="true" value="$datos.codigo_barras" id="codigo_barras" name="codigo_barras">
+    <br>
+    <h3 class="text-left"><img src="/static/images/description.png" height="30" width="30">  Nombre:</h3><input type="text" class="form-control" readonly="true" value="$datos.nombre_p" id="nombre_p" name="nombre_p">
+    <br>
+    <h3 class="text-left"><img src="/static/images/guarantee-certificate.png" height="30" width="30">  Marca:</h3><input type="text" class="form-control"  readonly="true" value="$datos.marca" id="marca" name="marca">
+    <br>
+    <h3 class="text-left"><img src="/static/images/description.png" height="30" width="30">  Descripción:</h3><input type="text" class="form-control"  readonly="true" value="$datos.descripcion" id="descripcion" name="descripcion">
+    <br>
+    <h3 class="text-left"><img src="/static/images/groceries.png" height="30" width="30">  Tipo:</h3><input type="text" class="form-control"  readonly="true" value="$datos.tipo" id="tipo" name="tipo">
+    <br>
+    <a href="/index_product"><button type="submit" class="btn btn-warning  btn-lg btn-block">Regresar</button></a>
+</section>
